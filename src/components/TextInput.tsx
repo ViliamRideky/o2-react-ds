@@ -39,7 +39,7 @@ export const TextInput = React.forwardRef<HTMLInputElement, TextInputProps>(
               "text-body-m leading-body-m tracking-body-m font-body-m",
               "bg-surface-x-low text-content-on-neutral-xx-high placeholder:text-content-on-neutral-low",
               "border-content-on-neutral-low transition-colors duration-200",
-              "[font-family:_'On_Air_Var',_sans-serif]",
+              "font-onair",
               !error && !warning && "hover:border-content-on-neutral-medium",
               !error && !warning && focused && "border-state-default-focus caret-surface-brand",
               "focus:outline-none",
